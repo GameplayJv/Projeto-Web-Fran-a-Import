@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 20;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Haas Grot Text R Web",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 16px;
+}
+
+main {
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 20px;
+}
+
+header {
+  text-transform: uppercase;
+  color: #cecdcd;
+  background-color: #415aca;
+  position: sticky;
+  top: 0;
+  display: flexbox;
+  text-align: center;
+  box-shadow: 0 0 2rem #3c3b3b;
+  justify-content: space-between;
+  padding-bottom: 10px;
+
+}
+
+.cabeca h1 {
+  color: #cecdcd;
+}
+
+.cabeca ul h1 {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  color: #cecdcd;
+}
+
+p,
+h3 {
+  text-align: center;
+  color: rgb(11, 11, 11);
+}
+
+h4 {
+  color: rgb(35, 196, 10)
+}
+
+.main header {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+#produtos {
+
+
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+
+
+}
+
+.produto {
+
+  flex-direction: column-reverse;
+  padding: 20px;
+  border: 3px solid rgb(182, 69, 46);
+  border-radius: 2%;
+
+
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.produto1 {
+
+  border-radius: 5%;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(213, 60, 30);
+}
+
+
+form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+
+}
+
+
+#myCarousel {
+  padding: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+
+}
+
+#myCarousel img {
+  padding: 100px;
+  margin: 1px;
+  border-radius: 1vh;
+  box-shadow: 0 0 1rem #e5e3e3;
+}
+
+#myCarousel1 {
+  padding: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+
+}
+
+#myCarousel1 img {
+  padding: 100px;
+  margin: 1px;
+  border-radius: 1vh;
+  box-shadow: 0 0 1rem #e5e3e3;
+}
+
+#myCarousel2 {
+  padding: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 10px;
+
+
+}
+
+#myCarousel2 img {
+  padding: 100px;
+  margin: 1px;
+  border-radius: 1vh;
+  box-shadow: 0 0 1rem #e5e3e3;
+}
+
+.carousel-inner {
+  padding-bottom: 100px;
+}
+
+div.produto {
+  padding: 10px;
+}
+
+.carousel-control-next {
+  background-color: rgba(00, 00, 00, 0.7);
+  margin-bottom: 850px;
+  margin-top: 300px;
+  padding: 30px;
+  padding-left: 20px;
+}
+
+.carousel-control-prev {
+  background-color: rgba(00, 00, 00, 0.7);
+  margin-bottom: 850px;
+  margin-top: 300px;
+  padding: 30px;
+  padding-left: 20px;
+
+}
+
+.carousel-caption d-one d-md-block {
+  display: flex;
+
+}
+footer {
+  margin-top: 20px;
+  background-color: #415aca;
+  padding: 50px 0;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+}
+.contato h4 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+  
+  
+}
+.contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+textarea {
+  resize: none;
+}
+.TOPO input{
+  width: 25vh;
+  padding: 10px;
+  border-radius: 2rem;
+  background-color: #ffffff;
+
+  
+}
+div.TOPO{
+  margin-bottom: 50px;
+}
+
+
+.carousel {
+  display: none;
+}
+@media (max-width: 1920px) {
+  .carousel {
+      display: block;
+      text-align: center;
+  }
+  .team {
+      display: none;
+  }
+}
